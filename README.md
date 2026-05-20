@@ -6,6 +6,7 @@
 ![Swarms](https://img.shields.io/badge/Powered%20By-Swarms-black?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
 ![Groq](https://img.shields.io/badge/LLM-Groq%20LLaMA%203.3-orange?style=for-the-badge)
+![Flask](https://img.shields.io/badge/Backend-Flask-lightgrey?style=for-the-badge&logo=flask)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
@@ -29,7 +30,7 @@ Hiring experts for all of this costs **$10,000–$50,000** and takes **weeks**.
 
 ## 🧠 What is StartupOS?
 
-**StartupOS** is an AI co-founder swarm built on the **Swarms Framework**. It deploys 5 specialized AI agents concurrently — each a domain expert — then synthesizes their outputs into one cohesive, investor-ready startup package complete with a score out of 10.
+**StartupOS** is an AI co-founder swarm built on the **Swarms Framework**. It deploys 5 specialized AI agents concurrently — each a domain expert — then a Director Agent synthesizes their outputs into one cohesive, investor-ready startup package complete with a score out of 10.
 
 No single AI. No generic output. A **true multi-agent swarm** working in parallel.
 
@@ -52,14 +53,16 @@ No single AI. No generic output. A **true multi-agent swarm** working in paralle
 
 StartupOS is built specifically to showcase the power of the **Swarms Framework**:
 
-- **MixtureOfAgents Pattern** — 5 specialist agents run concurrently, maximizing speed and depth of analysis
-- **Aggregator Agent** — A Director Agent synthesizes all 5 outputs into one cohesive package, demonstrating true multi-agent collaboration
-- **Agent Specialization** — Each agent has a deeply crafted system prompt making it a genuine domain expert, not a generalist
-- **Scalability** — The swarm can be extended with more agents (e.g. SEO Analyst, Growth Hacker) without changing the core architecture
-- **Production Ready** — Wrapped in a Flask REST API with a full frontend, showing Swarms in a real-world deployment
+- **MixtureOfAgents Pattern** — 5 specialist agents run concurrently, maximizing speed and depth
+- **Aggregator Agent** — A Director Agent synthesizes all 5 outputs into one cohesive package
+- **Agent Specialization** — Each agent has a deeply crafted system prompt making it a genuine domain expert
+- **Scalability** — The swarm can be extended with more agents without changing the core architecture
+- **Production Ready** — Wrapped in a Flask REST API with a full frontend dashboard
 
 > This is not a demo. This is Swarms in production.
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Detailed Workflow
+
+Here is exactly what happens from the moment you submit a startup idea:
